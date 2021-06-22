@@ -1,0 +1,53 @@
+@import '../Utils/Index.css';
+@import '../Components/Status_Bar.css';
+
+.body {
+    position: relative;
+}
+
+.Menssanger-call {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.Chat {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 20.5px;
+    top: 60.5px;
+}
+
+.Cam {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 315.5px;
+    top: 60.5px;}
+
+.Menssanger-call-id {
+    position: absolute;
+    width: 143px;
+    height: 146px;
+    left: 116px;
+    top: 194px;
+}
+
+.Bottom-call{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-top: 660px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Bottom-bar{
+    height: 5px;
+    top: 20px;
+    margin-left: 121px;
+    margin-right: 120px;
+}
