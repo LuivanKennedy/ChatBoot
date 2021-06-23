@@ -1,11 +1,12 @@
 @import '../Utils/Index.css';
 @import '../Components/Status_Bar.css';
 
-.body {
+body {
     position: relative;
 }
 
 .Menssanger-call {
+    width: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
